@@ -10,4 +10,5 @@ work_<%= n %>:
   user: <%= n % 2 == 0 ? 'brianhoke' : 'janedoe' %>
   project: <%= n % 3 == 0 ? 'projectxyz' : 'secondproj' %>
   hours: <%= n%8 + 1 %>
+  notes: i am working
 <% end %>
